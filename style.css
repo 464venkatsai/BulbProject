@@ -2,7 +2,6 @@
     width: 20rem;
     height: 27rem;
 }
-
 center div{
     margin-top: 3rem;
     display: flex;
@@ -14,8 +13,13 @@ center div button{
     background-color: black;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 550;
+    font-weight: 650;
+    cursor: pointer;
     padding: 0.5rem 1.5rem;
-    border: none;
     border-radius: 5px;
+    border: 3px solid black !important;
+}
+center div button:hover{
+    background-color: white;
+    color: black;
 }
