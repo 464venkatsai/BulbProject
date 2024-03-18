@@ -1,8 +1,8 @@
 function BulbHandler(bulbValue) {
     if (bulbValue==="on"){
-        document.getElementById("Img").src = "./Bulbon.jpg"
+        document.getElementById("Img").src = "./BulbOn.png"
     }
     else{
-        document.getElementById("Img").src = "./BulbOff.jpg"
+        document.getElementById("Img").src = "./BulbOff.png"
     }
 }
